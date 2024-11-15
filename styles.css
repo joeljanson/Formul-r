@@ -1,0 +1,24 @@
+/* Grundläggande styling */
+form {
+	max-width: 400px;
+	margin: auto;
+}
+label {
+	display: block;
+	margin-top: 10px;
+}
+input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+}
+/* Stil för fält med felaktig inmatning */
+.invalid {
+	border: 2px solid red;
+}
+.error-message {
+	color: red;
+	font-size: 0.9em;
+	display: none;
+}
